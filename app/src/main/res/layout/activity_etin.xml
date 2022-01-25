@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Etin"
+    android:orientation="vertical"
+    android:id="@+id/zoom"
+    android:padding="10dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ই-টিন সার্টিফিকেট কি ?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/kalpona"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আপনি দেশের একজন করদাতা এবং আপনার একটি ট্যাক্স আইডেন্টিফিকেশন নম্বর (Tax Identification Number) আছে এরকম একটি সনদকেই টিন সার্টিফিকেট (TIN Certificate) বলা হয়।১০  ডিজিটের টিন নম্বরটি কর প্রদানকারী হিসেবে আপনার একটি পরিচিতি নম্বর যেটি দিয়ে আপনাকে শনাক্ত করা যাবে। এছাড়া বিভিন্ন আর্থিক প্রতিষ্টান এই TIN Number  দিয়ে টিন সার্টিফিকেট যাচাই করতে পারে।এই টিন নম্বরের মাধ্যমে করদাতাকে চেনার উপায় হচ্ছে, প্রথম তিনটি সংখ্যা দ্বারা করদাতার কর অঞ্চল, মাঝের তিনটি সংখ্যা দ্বারা সেই করদাতার পদমর্যাদা এবং বাকি চারটি সংখ্যা দ্বারা করদাতার পরিচিতি চিহ্নিত করা হয়।কিভাবে টিন সার্টিফিকেট বের করা যায়টিন করা মানেই আপনাকে কর দিতে হবে এমনটি নয়। আপনার আয় করসীমার মধ্যে করসীমার মধ্যে আসলেই তখনি কর পরিশোধ করতে হবে।বর্তমানে টিন সার্টিফিকেট করতে আয়কর অফিসে যেতে হয়না। শুধুমাত্র আপনার মোবাইল নম্বর ও জাতীয় পরিচয়পত্র (NID Card) দিয়েই ই টিন করতে পারবেন।এনআইডি এখনো হাতে না পেলে অনলাইন জাতীয় পরিচয়পত্র কপি ডাউনলোড করতে পারেন বা অনলাইনে নতুন জাতীয় পরিচয়পত্র করার আবেদন করুন।"
+                android:textSize="20sp"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/hasan"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="কত টাকা আয় হলে আয়কর দিতে হবে ?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/kalpona"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="টিন থাকলেই আপনাকে কর দিতে হবে না। তবে আপনাকে শুধুমাত্র আয়কর রিটার্ন দাখিল করতে হবে।একজন পুরুষের বাৎসরিক আয় তিন লাখ, সব বয়সের নারী এবং ৬৫ বছরের ঊর্ধ্বে সব নাগরিকের বাৎসরিক আয় সাড়ে তিন লাখ এবং প্রতিবন্ধীদের বাৎসরিক সাড়ে চার লাখ টাকার ওপরে আয় হলে আয়কর দেওয়া বাধ্যতামূলক।যদি আয় এর কম বা করসীমার নিচে হয়, তাহলে আয়কর দিতে হবেনা। তবে যদি আপনার টিআইএন (TIN) সার্টিফিকেট থাকে, আপনাকে জিরো রিটার্ণ বা শূন্য বিবরণী জমা দিতে হবে"
+                android:textSize="20sp"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/hasan"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="টিন সার্টিফিকেট কেন দরকার ?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/kalpona"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="শুধু ব্যবসা বা চাকরী নয়, বিভিন্ন ক্ষেত্রে আমাদের বাধ্যতামূলকভাবে টিন সার্টিফিকেট তৈরি করার প্রয়োজন হয়।\nব্যবসা শুরু করতে ট্রেড লাইসেন্স নিতে\nগাড়ির মালিক হতে\nসিটি করপোরেশনের অঞ্চলে থাকা কোনো জমি, ফ্ল্যাট বা ভবন রেজিস্ট্রেশন করতে\nক্রেডিট কার্ড পেতে\nসঞ্চয়পত্র কিনতে\nকোনো কোম্পানির শেয়ার কিনতে\nনিজের কোম্পানি নিবন্ধন করতে\nকোনো পণ্য আমদানির লাইসেন্স নিতে\nমুক্ত পেশাজীবী যেমন হিসাবরক্ষক\nআইনজীবী, চিকিৎসক, প্রকৌশলীদের পেশার চর্চা করতে\nনির্বাচনে প্রার্থী হতে\nব্যবসায়িক সমিতি বা কোনো নিবন্ধিত সংগঠনের সদস্য হতে\nসরকারি, আধা সরকারি, স্বায়ত্তশাসিত সংস্থার দরপত্রে অংশ নিতে\nরাইড শেয়ারিং কোম্পানিতে গাড়ি দিতে\nউপরোক্ত ক্ষেত্রে আপনার আয় করসীমার মধ্যে না আসলেও, আপনার বাধ্যতামূলকভাবে টিন সার্টিফিকেট প্রয়োজন হবে।"
+                android:textSize="20sp"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/hasan"
+                android:padding="5dp"
+                />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="টিন সার্টিফিকেটের সুবিধাসমূহ?"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            android:fontFamily="@font/kalpona"
+            android:padding="5dp"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="টিন সার্টিফিকেটের প্রথম সুবিধা হলো, আপনি দেশের একজন গর্বিত করদাতা হিসেবে নিবন্ধিত হবেন। আপনার আয়কর দিয়ে দেশ চলবে।এছাড়া টিআইএন থাকার আরো কিছু ব্যক্তিগত সুবিধা রয়েছে যেমন,ব্যাংকে আপনার জমাকৃত অর্থের আয় থেকে ১০% কর কর্তন করা হবে। যদি টিআইএন না থাকে ১৫% কর্তন করা হবে।ব্যাংক ঋণ বা ক্রেডিট কার্ড নিতে টিন সার্টিফিকেট থাকতে হবে।বিভিন্ন সময় সরকার বিভিন্ন পেশাজীবি বা ক্ষুদ্র উদ্যোক্তাদের প্রণোদনা দেয়। এসব সুবিধা নিতেও টিআইএন প্রয়োজন হয়।"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/hasan"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="টিন সার্টিফিকেট এর অসুবিধা ?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/kalpona"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="টিন সার্টিফিকের একটিই অসুবিধা তা হচ্ছে, আপনার করযোগ্য আয় থাক বা না থাক, আপনাকে প্রতি বছর অবশ্যই ট্যাক্স রিটার্ণ দাখিল করতে হবে।যদি  রিটান জমা না দিলে আপনার ইনকাম কালো টাকা হিসাবে গণ্য হবে।যদি পর পর ৩ বছর আপনার করযোগ্য আয় শুন্য হয় বা আপনার বাৎসরিক আয় করসীমার মধ্যে না আসে, আপনি ৪র্থ বার থেকে রিটার্ণ না দিলে চলবে।তাছাড়া আপনি আপনার আয়কর নিবন্ধন বাতিলের জন্য অবেদন করতে পারবেন।"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/hasan"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="অনলাইনে টিন সার্টিফিকেট বের করার নিয়ম?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/kalpona"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="এখন জানব অনলাইনে কিভাবে টিন সার্টিফিকেট বের করা যায়। আপনি ঘরে বসেই অনলাইনে টিন সার্টিফিকেট ফরম পূরণ করে নিজের ই টিন সার্টিফিকেট তৈরী ও ডাউনলোড করতে পারবেন।তাছাড়া আপনার যদি পূর্বের টিন থাকে তা দিয়েও নতুন ই-টিন ডাউনলোড করতে পারবেন।অনলাইনে ই টিআইএন নিবন্ধন করার জন্য নিচের ধাপগুলো অনুসরণ করুন।"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/hasan"
+                android:padding="5dp"
+                />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

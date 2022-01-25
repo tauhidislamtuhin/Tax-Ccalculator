@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Guideline"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আয়কর কি?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/kalpona"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আয়কর হচ্ছে ব্যক্তি বা সত্ত্বার আয় বা লভ্যাংশরে উপর প্রদেয় কর । আয়কর অধ্যাদেশ ১৯৮৪ এর আওতায় কর বলতে অধ্যাদেশ অনুযায়ী প্রদেয় আয়কর, অতিরিক্ত কর, বাড়তি লাভের কর, এতদসংক্রান্ত জরিমানা, সুদ বা আদায় যোগ্য অর্থকে বুঝায়। অন্য ভাবে বলা যায় যে, কর হচ্ছে রাষ্ট্রের সকল জনসাধারনের স্বার্থে রাষ্ট্রের ব্যয় নির্বাহের জন্য সরকারকে প্রদত্ত বাধ্যতামূলক অর্থ।"
+                android:textSize="20sp"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/hasan"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="কোন ব্যক্তি আয়কর প্রদানের জন্য উপযুক্ত?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/kalpona"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="র্অথ আইন ২০১৫ এর আওতায় প্রত্যেক ব্যক্তি করদাতা (অনিবাসী বাংলাদেশী সহ), হিন্দু যৌথ পরিবার, অংশীদারী ফার্ম, ব্যক্তি সংঘ এবং আইনের দ্বারা সৃষ্ট কৃত্রিম ব্যক্তির আয়ের সীমা ২,৫০,০০০/= টাকার উপরে হলে আয়কর প্রদানের জন্য উপযুক্ত বলে বিবেচিত হবেন। তবে\n(১) মহিলা এবং ৬৫ বৎসর বা তদুর্ধ বয়সের ব্যক্তি করদাতা আয় ৩,০০,০০০/= টাকা এর উপরে হলে তিনি আয়কর প্রদানের উপযুক্ত হবনে।\n(২) প্রতিবন্ধি করদাতা আয় ৩,৭৫,০০০/= টাকা এর উপরে হলে তিনি আয়কর প্রদানের উপযুক্ত হবেন।\n(৩) গেজেট ভুক্ত যুদ্ধাহত মুক্তিযোদ্ধা করদাতার আয় সীমা ৪,২৫,০০০/= টাকা এর উপরে হলে তিনি আয়কর প্রদানের উপযুক্ত হবেন।"
+                android:textSize="20sp"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/hasan"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আয়করের জন্য আয়ের খাত কি কি?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/kalpona"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.বেতনাদি \n2.নিরাপত্তা জামানতের উপর সুদ\n3.গৃহ সম্পত্তির আয়\n4.কৃষি আয়\n5.ব্যবসা বা পেশার আয়\n6.মূলধনী মুনাফা\n7.অন্যান্য উৎস হতে আয়। তবে রিটার্ন জমা দেয়ার সময় নিম্নলিখিত আয়ের খাতগুলি সম্পৃক্ত হবে।\n8.ফার্মের আয়ের অংশ\n9.স্বামী / স্ত্রী বা অপ্রাপ্ত বয়স্ক সন্তানের আয়"
+                android:textSize="20sp"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/hasan"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আয়কর আরোপযোগ্য সীমা কি?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/kalpona"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সরকার কর্তিক ঘুষিত আয় যা অতিক্রম করিলে আয়কর প্রদানের জন্য উপযুক্ত বলে বিবেচিত হবেন। আয়কর আরোপযোগ্য  সীমা হচ্ছে:/n(১) ব্যক্তি করদাতা (অনিবাসী বাংলাদেশী সহ), হিন্দু যৌথ পরিবার, অংশীদারী ফার্ম, ব্যক্তি সংঘ এবং আইনের দ্বারা সৃষ্ট কৃত্রিম ব্যক্তির আয়ের সীমা ২,৫০,০০০/= টাকা\n(২) মহিলা এবং ৬৫ বৎসর বা তদুর্ধ্ব বয়সের ব্যক্তিদের আয়ের সীমা ৩,০০,০০০/= টাকা\n(৩) প্রতিবন্ধি করদাতাদের আয়ের সীমা ৩,৭৫,০০০/= টাকা\n(৪) গেজেট ভুক্ত যুদ্ধাহত মুক্তি যোদ্ধাদের আয়ের সীমা ৪,২৫,০০০/= টাকা"
+                android:textSize="20sp"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/hasan"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আয়কর আরোপযোগ্য সীমা কি?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/kalpona"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="অর্থ আইন ২০১৫ এর আওতায় প্রত্যেক ব্যক্তি করদাতা (অনিবাসী বাংলাদেশী সহ), হিন্দু যৌথ পরিবার, অংশীদারী ফার্ম, ব্যক্তি সংঘ এবং আইনের দ্বারা সৃষ্ট কৃত্রিম ব্যক্তির আয়ের সীমা ২,৫০,০০০/= টাকার উপরে হলে আয়কর প্রদানের জন্য উপযুক্ত বলে বিবেচিত হবেন। তবে\n(১) মহিলা এবং ৬৫ বৎসর বা তদুর্ধ্ব বয়সের ব্যক্তিদের আয়ের সীমা ৩,০০,০০০/= টাকা এর উপরে হলে তিনি আয়কর প্রদানের উপযুক্ত হবেন। \n(২) প্রতিবন্ধি করদাতাদের আয়ের সীমা ৩,৭৫,০০০/= টাকা এর উপরে হলে তিনি আয়কর প্রদানের উপযুক্ত হবেন।\n(৩) গেজেট ভুক্ত যুদ্ধাহত মুক্তি যোদ্ধাদের আয়ের সীমা ৪,২৫,০০০/= টাকা উপরে হলে তিনি আয়কর প্রদানের উপযুক্ত হবেন।\n২০১৫-২০১৬ কর বছরের জন্য এরূপ করদাতাদের আয়ের উপর প্রযোজ্য কর হার নিম্নরূপে পুনর্বিন্যাস করা হয়েছেঃ-
+\n(ক)প্রথম ২,৫০,০০০/- টাকা পর্যন্ত মোট আয়ের উপর শূণ্য \n(খ)পরবর্তী ৪,০০,০০০/- টাকা পর্যন্ত মোট আয়ের উপর ১০% ।\n(গ)পরবর্তী ৫,০০,০০/- টাকা পর্যন্ত মোট আয়ের উপর ১৫% ।\n(ঘ)পরবর্তী ৬,০০,০০০/- টাকা পর্যন্ত মোট আয়ের উপর ২০% ।\n(ঙ)পরবর্তী ৩০,০০,০০০/- টাকা পর্যন্ত মোট আয়ের উপর ২৫% ।\n(চ)অবশিষ্ট মোট আয়ের উপর ৩০% ।"
+                android:textSize="20sp"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/hasan"
+                android:padding="5dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

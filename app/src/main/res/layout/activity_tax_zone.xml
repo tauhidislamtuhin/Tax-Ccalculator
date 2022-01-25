@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaxZone"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ffffff"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/callbackground"
+                android:padding="10dp"
+                android:layout_margin="3dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="কর অঞ্চল-১,ঢাকা"
+                        android:fontFamily="@font/hasan"
+                        android:textColor="@color/text_color"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="029334378"
+                        android:textColor="@color/text_color"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/call1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/call"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/callbackground"
+                android:padding="10dp"
+                android:layout_margin="3dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="কর অঞ্চল-২,ঢাকা"
+                        android:fontFamily="@font/hasan"
+                        android:textColor="@color/text_color"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="029331964"
+                        android:textColor="@color/text_color"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/call2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/call"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/callbackground"
+                android:padding="10dp"
+                android:layout_margin="3dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="কর অঞ্চল-৩,ঢাকা"
+                        android:fontFamily="@font/hasan"
+                        android:textColor="@color/text_color"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="029330538"
+                        android:textColor="@color/text_color"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/call3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/call"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/callbackground"
+                android:padding="10dp"
+                android:layout_margin="3dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="কর অঞ্চল-৪,ঢাকা"
+                        android:fontFamily="@font/hasan"
+                        android:textColor="@color/text_color"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="029330865"
+                        android:textColor="@color/text_color"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/call4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/call"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/callbackground"
+                android:padding="10dp"
+                android:layout_margin="3dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="কর অঞ্চল-5,ঢাকা"
+                        android:fontFamily="@font/hasan"
+                        android:textColor="@color/text_color"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="029333145"
+                        android:textColor="@color/text_color"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/call5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/call"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/callbackground"
+                android:padding="10dp"
+                android:layout_margin="3dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="কর অঞ্চল-৬,ঢাকা"
+                        android:fontFamily="@font/hasan"
+                        android:textColor="@color/text_color"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="029339086"
+                        android:textColor="@color/text_color"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/call6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/call"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/callbackground"
+                android:padding="10dp"
+                android:layout_margin="3dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="কর অঞ্চল-১,চট্টগ্রাম"
+                        android:fontFamily="@font/hasan"
+                        android:textColor="@color/text_color"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="031723116"
+                        android:textColor="@color/text_color"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/call7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/call"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/callbackground"
+                android:padding="10dp"
+                android:layout_margin="3dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="কর অঞ্চল-২,চট্টগ্রাম"
+                        android:fontFamily="@font/hasan"
+                        android:textColor="@color/text_color"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0317251552"
+                        android:textColor="@color/text_color"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/call8"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/call"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/callbackground"
+                android:padding="10dp"
+                android:layout_margin="3dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="কর অঞ্চল-৩,চট্টগ্রাম"
+                        android:fontFamily="@font/hasan"
+                        android:textColor="@color/text_color"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="031728326"
+                        android:textColor="@color/text_color"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/call9"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/call"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/callbackground"
+                android:padding="10dp"
+                android:layout_margin="3dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="কর অঞ্চল,খুলনা"
+                        android:fontFamily="@font/hasan"
+                        android:textColor="@color/text_color"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="041761983"
+                        android:textColor="@color/text_color"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/call10"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/call"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/callbackground"
+                android:padding="10dp"
+                android:layout_margin="3dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="কর অঞ্চল,রাজশাহী"
+                        android:fontFamily="@font/hasan"
+                        android:textColor="@color/text_color"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="072177597"
+                        android:textColor="@color/text_color"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/call11"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/call"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/callbackground"
+                android:padding="10dp"
+                android:layout_margin="3dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="কর অঞ্চল,রংপুর"
+                        android:fontFamily="@font/hasan"
+                        android:textColor="@color/text_color"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="052161773"
+                        android:textColor="@color/text_color"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/call12"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/call"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>
