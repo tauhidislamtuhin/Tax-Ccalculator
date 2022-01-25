@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    >
+
+    <TextView
+        android:id="@+id/tvspineer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_color"
+        android:fontFamily="sans-serif"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="Select"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:paddingLeft="10dp"
+
+        />
+
+
+
+</LinearLayout>
